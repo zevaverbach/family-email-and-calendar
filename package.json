@@ -1,0 +1,15 @@
+{
+    "name": "family-mail",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.66.2",
+        "@pulumi/cloudflare": "^5.47.0",
+        "@pulumi/command": "^1.0.1",
+        "@pulumi/hcloud": "^1.21.1",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}

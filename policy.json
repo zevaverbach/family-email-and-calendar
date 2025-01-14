@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateUser",
+                "iam:PutUserPolicy",
+                "ses:VerifyDomainIdentity",
+                "ses:VerifyDomainDkim",
+                "ses:GetIdentityVerificationAttributes",
+                "ses:GetIdentityDkimAttributes",
+                "ses:DeleteIdentity",
+                "ses:SendRawEmail"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
